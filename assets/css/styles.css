@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* background-color: #F0F2F5; */
+
+   
+
+}
+.body-main {
+    display: flex;
+    position: relative;
+    background-color: #F0F2F5;
+    width: 100%;
+    height: 535px;
+    padding: auto;
+    padding-top: 72px;
+    padding-bottom: 112px;
+    /* margin: 0 40px;
+    position: relative;
+    margin-top: 72px;
+    background-color: #F0F2F5; */
+
+}
+
+.form {
+    width: 395px;
+    height: 350px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 10;
+    padding: 10px 5px 20px 5px ;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px -2px;
+    margin: 40px 0 0;
+    right: 0;
+    margin-right: 300px;
+    margin-top: 60px;
+
+}
+.text {
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    width: 354px;
+    padding: 18px 10px;
+    border-radius: 5px;
+    text-align: start;
+    color: black;
+    font-size: 15px;
+    margin-top: 5px;
+
+    
+}
+
+
+.password {
+    background-color: #fff;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1.5px solid rgb(200, 200, 200);
+    width: 354px;
+    padding: 18px 10px;
+    border-radius: 5px;
+    text-align: start;
+    color: black;
+    font-size: 15px;
+}
+.button-log {
+    border: none;
+    border-radius: 5px;
+    background-color: #1877f2;
+    width: 377px;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 10px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button-2 {
+    border: none;
+    border-radius: 5px;
+    background-color: #42b72a;
+    width: 180px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 10px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button-2:hover {
+    background-color: #409b2e;
+}
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    font-size: 14px;
+
+}
+
+.sub-link {
+    position: absolute;
+    bottom: 150px;
+    right: 300px;
+    width: 395px;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.container img {
+    width: 300px;
+    margin-left: 270px;
+    position: absolute;
+    margin-top: 110px;
+}
+.text-left {
+    width: 500px;
+    margin-left: 300px;
+    position: absolute;
+    margin-top: 200px;
+    font-size: 28px;
+}
+.line {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
