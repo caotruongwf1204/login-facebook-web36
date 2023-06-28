@@ -1,25 +1,22 @@
 * {
     margin: 0;
     padding: 0;
-    text-decoration: none;
-    /* background-color: #F0F2F5; */
-
-   
+}
+.body-bg {
+    background-color: #F0F2F5;
 
 }
 .body-main {
-    display: flex;
+    
     position: relative;
     background-color: #F0F2F5;
-    width: 100%;
+    width: 980px;
     height: 535px;
     padding: auto;
     padding-top: 72px;
     padding-bottom: 112px;
-    /* margin: 0 40px;
-    position: relative;
-    margin-top: 72px;
-    background-color: #F0F2F5; */
+    margin: auto;
+    
 
 }
 
@@ -28,13 +25,11 @@
     height: 350px;
     position: absolute;
     background-color: #fff;
-    z-index: 10;
     padding: 10px 5px 20px 5px ;
     border-radius: 8px;
     box-shadow: 0px 2px 4px -2px;
     margin: 40px 0 0;
     right: 0;
-    margin-right: 300px;
     margin-top: 60px;
 
 }
@@ -113,30 +108,45 @@
     margin-top: 5px;
     margin-bottom: 10px;
     background-color: #fff;
-    font-size: 14px;
+    font-size: 16px;
+    color: #1877F2;
+    text-decoration: none;
+    cursor: pointer;
 
+}
+.link:hover {
+    text-decoration: underline;
 }
 
 .sub-link {
     position: absolute;
     bottom: 150px;
-    right: 300px;
+    right: 5px;
     width: 395px;
     align-items: center;
     font-size: 16px;
     text-align: center;
 
 }
+.sub-link a:hover {
+    text-decoration: underline;
+}
+
+.sub-link a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 .container img {
     width: 300px;
-    margin-left: 270px;
     position: absolute;
     margin-top: 110px;
 }
 .text-left {
     width: 500px;
-    margin-left: 300px;
+    margin-left: 30px;
     position: absolute;
     margin-top: 200px;
     font-size: 28px;
@@ -147,4 +157,54 @@
     display: flex;
     margin: 20px 16px;
     text-align: center;
+}
+.footer-main {
+    width: 100%;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #737373;
+
+}
+.footer {
+    margin: auto;
+    width: 980px;
+}
+
+.footer-1 {
+    list-style-type: none;
+    display: flex;
+    padding-left: 10px;
+    flex-wrap: wrap;
+}
+.footer-1 li {
+    padding-left: 10px;
+
+}
+.footer-1 li a {
+
+    color: #737373;
+    text-decoration: none;
+    padding-left: 10px;
+    line-height: 20px;
+}
+
+.footer-1 li a:hover {
+    text-decoration: underline;
+}
+.footer-1 button {
+    width: 24px;
+    height: 18px;
+    text-align: center;
+    font-weight: 600;
+    color: #697079;
+    border-radius: 2px;
+    margin-left: 10px;
+    
+}
+.meta {
+    color: #737373;
+    text-decoration: none;
+    padding-left: 285px;
+    line-height: 20px;
+    margin-top: 30px;
 }
