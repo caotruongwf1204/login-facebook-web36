@@ -161,7 +161,7 @@
 .footer-main {
     width: 100%;
     padding-top: 20px;
-    font-size: 12px;
+    font-size: 13px;
     color: #737373;
 
 }
@@ -206,5 +206,7 @@
     text-decoration: none;
     padding-left: 285px;
     line-height: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
+    font-size: 12px;
+    margin-bottom: 20px;
 }
